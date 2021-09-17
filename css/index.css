@@ -1,7 +1,10 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: beige;
+    background-image: url(../img/bear.jpg);
     text-align: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
 }
 a.head:link, a.head:visited, a.head:hover, a.head:active {
   text-align: center;
@@ -43,7 +46,10 @@ a:link, a:visited {
     width: 80%;
     min-height: 90vh;
     font-size: 30px;
-  }
+    color: rgb(224, 222, 222);
+    text-shadow: 2px 2px black;
+}
+  
 
   nav[role="head"] {
     float: top;
