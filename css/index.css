@@ -3,3 +3,32 @@ body {
     background-color: beige;
     text-align: center;
 }
+
+a:link, a:visited {
+    background-color: #044b19;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    width: 20%;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(165, 121, 121);
+    text-transform: uppercase;
+    width: 20%;
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+    background: rgb(116, 74, 36);
+    padding: none;
+  }
+  article {
+    float: right;
+    padding: 1%;
+    width: 78%;
+    background-color: #fd7a00;
+  }
