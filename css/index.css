@@ -3,32 +3,56 @@ body {
     background-color: beige;
     text-align: center;
 }
-
+a.head:link, a.head:visited, a.head:hover, a.head:active {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  height: auto;
+  width: auto;
+  font-size: 60px;
+}
 a:link, a:visited {
-    background-color: #044b19;
+  background-color: black;
     color: white;
-    padding: 14px 25px;
+    padding-top: 40px;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    width: 20%;
+    width: 100%;
+    font-size: 30px;
   }
   
   a:hover, a:active {
-    background-color: rgb(165, 121, 121);
+    background-color: rgb(177, 72, 72);
     text-transform: uppercase;
-    width: 20%;
+    width: 100%;
+
   }
 
-  nav {
+  nav[role="left"] {
     float: left;
     width: 20%;
-    background: rgb(116, 74, 36);
+    min-height: 90vh;
+    background: rgb(83, 2, 2);
     padding: none;
   }
   article {
     float: right;
-    padding: 1%;
-    width: 78%;
-    background-color: #fd7a00;
+    padding: none;
+    width: 80%;
+    min-height: 90vh;
+    font-size: 30px;
   }
+
+  nav[role="head"] {
+    float: top;
+    width: 100%;
+    height: 10%;
+    background: rgb(255, 255, 255);
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
